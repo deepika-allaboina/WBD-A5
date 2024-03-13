@@ -1,0 +1,25 @@
+h1{
+    border: 2px solid green;
+}
+#rotate{
+    border: 2px solid red;
+    width: 200px;
+}
+#rotate:hover{
+    transform: rotate(30deg);
+    /* transform:rotateX(90deg); */
+    /* transform: rotateY(90deg); */
+}
+
+#scale{
+    border: 2px solid blue;
+    width: 200px;
+    transform: scale(2);
+    /* transform:scaleX(3); */
+    /* transform: scaley(0.5); */
+}
+
+#rotate{
+    border: 2px solid orangered;
+    width: 200px;
+}

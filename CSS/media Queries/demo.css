@@ -1,0 +1,37 @@
+@media only screen and (max-width:550px){
+    h1{
+        background-color: red;
+        color: white;
+        font-size: 20px;
+    }
+    #menu{
+        display:block;
+    }
+    ul{
+        display: none;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:551px){
+    h1{
+        background-color: blue;
+        color: white;
+    }
+    #menu{
+        display: none;
+    }
+    ul{
+       
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: blueviolet;
+    }
+    img{
+        width:50%
+    }
+}

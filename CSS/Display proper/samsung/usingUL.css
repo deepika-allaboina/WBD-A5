@@ -1,0 +1,61 @@
+
+
+
+
+nav{
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    flex-wrap: wrap;    
+    
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type:none;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 3px 5px;
+    /* border: 2px solid blue; */
+}
+
+.links a:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+i:hover{
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+h3:active{
+    border: 2px dotted black;
+}
+
+
+
+#t1{
+    border: 2px solid olive;
+}
+.netflix{
+    border:2px solid ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:8px;
+}
+ .netflix>p{
+    font-size: 24px;
+}

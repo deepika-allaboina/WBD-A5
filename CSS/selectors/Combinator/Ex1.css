@@ -1,0 +1,24 @@
+/* to target using element*/
+
+/* DESCENDENT SELECTOR COMBINATOR [SPACE]
+div a{
+    background-color: aqua;/*it targets all specdified direct and indirect members*/
+}
+
+/* DESCENDENT SELECTOR COMBINATOR [>]*/
+div>a{
+    color:red/*it targets all specfied direct only*/
+}
+
+/* ADJACENT SIBLING SELECTOR COMBINATOR [+]*/
+
+div+a{
+    background-color: green;/*it targets adjust sibling spe*/
+}
+
+/* GENERAL SIBLING SELECTOR COMBINATOR [+]*/
+
+div~a{
+    border: 3px solid red;/*it targets adjust sibling spe*/
+} 
+*/

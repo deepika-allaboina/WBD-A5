@@ -1,0 +1,44 @@
+
+.kbLogo{
+    width: 30px;
+    height: 30px; 
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+#websitename{
+    width: 200px;
+    /* border: 2px solid yellow; */
+    margin-top:-30px;
+    margin-left:45px;
+    color: white; 
+    font-family: sans-serif;
+    font-weight: bold;  
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 50px;
+    
+}
+nav{
+    /* border: 2px solid red; */
+    width: 500px;
+    margin-top: -40px; 
+    margin-left:700px;
+}
+header{
+    /* background-color: rgba(0,0,0,0.4); */
+    background-color: red;  
+    height: 100px;  
+    box-sizing: border-box;
+    padding: 30px 80px 20px;
+    width:100%;
+    position: fixed;
+     top: 0px;
+     left:0px
+    
+
+}

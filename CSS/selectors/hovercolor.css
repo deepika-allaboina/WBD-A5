@@ -1,0 +1,72 @@
+#c1:hover{
+    background-color:violet;
+}
+#c2:hover{
+    background-color:indigo;
+}
+#c3:hover{
+    background-color:blue;
+}
+#c4:hover{
+    background-color:green;
+}
+#c5:hover{
+    background-color:yellow;
+}
+#c6:hover{
+    background-color:orange;
+}
+#c7:hover{
+    background-color:red;
+}
+#c8:hover{
+    background-color:palevioletred;
+}
+#c9:hover{
+    background-color:aqua;
+    
+}
+
+/*Nested div*/
+
+#div1,#div2,#div3{
+    border: 4px solid green;
+
+}
+
+#div1{
+    height:400px;
+    width:400px;
+}
+#div2{
+    height:200px;
+    width:200px;
+}
+#div3{
+    height:100px;
+    width:100px;
+}
+#div1{
+    background-color: aqua;
+    
+}
+#div2{
+    background-color: chartreuse;
+}
+#div3{
+    background-color: crimson;
+}
+
+#div1:hover{
+    background-color: red;
+    color:white;
+}
+
+#div2:hover{
+    background-color: Blue;
+    
+}
+#div3:hover{
+    background-color: Yellow;
+
+}

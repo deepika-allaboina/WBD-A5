@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="2" cellpadding="2" cellspacing="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><label for="n">Name</label></td>
+                <td><input id="n" name="name" type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label>Sex</label></td>
+                <td>
+                    <input id="m" name="Sex" value="male" type="radio">
+                    <label for="m">Male</label>
+                    <br>
+                    <input id="f" name="Sex" value="female" type="radio" checked>
+                    <label for="f">Female</label>
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="eye">Eye color</label></td>
+                <td>
+                    <select name="eye color" id="eye">
+                        <option value="blue">Blue</option>
+                        <option value="grey">Grey</option>
+                        <option value="black">Black</option>
+                        <option value="brown">Brown</option>
+                        <option value="green" selected>Green</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><Label >Check all that apply</Label></td>
+                <td>
+                    <input id="6" name="check" value="over 6feet tall" type="checkbox">
+                    <label for="6">Over 6 feet tall</label>
+
+                    <br>
+
+                    <input id="200" name="check" value="over 200 pounds" type="checkbox">
+                    <label for="200">Over 200 pounds</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="AA">Describe your athletic abitily:</label>
+                    <br>
+                    <textarea id="AA" name="athelic ability" cols="40" rows="5"></textarea>
+                </td>
+            </tr>
+
+
+            <tr >
+                <td colspan="2" align="center" >
+                    <input type="submit" value="Enter my information">
+                </td>
+            </tr>
+        </tbody>
+   </table>
+</body>
+</html>

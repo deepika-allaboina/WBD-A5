@@ -1,0 +1,33 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    height: 150px;
+    width:150px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+}
+
+#ro:hover{
+    transform: rotate(45deg);
+}
+#sc:hover{
+    transform: scale(0.5);
+}
+#tr:hover{
+    transform: translateY(100px);
+}
+#sk:hover{
+    transform:skew(45deg);
+}

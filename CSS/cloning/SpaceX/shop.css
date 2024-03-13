@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    padding-left: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+
+#wholepage{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+    row-gap: 20px;
+
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding-top:60px;
+}
+header img{
+    width: 160px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.ash{
+    color: #939393;
+}
+.ash:hover{
+    color: white;
+}
+header>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    /* border: 2px solid white; */
+    margin:0px 20px;
+    text-transform: uppercase; 
+    display: flex;
+    flex-direction: column;
+
+}
+#drop1{
+    position: absolute;
+    top:105px;
+    width: 200px;
+    padding: 30px;
+    border-top: 4px solid white;
+    background-color: black;
+    color: white;
+    display: none;
+    /* visibility: hidden; */
+    
+}
+#link1:hover{
+   #drop1{
+        display: block;
+   }
+}
+
+/* ---------------   sec1 --------------------------- */
+#sec1 img{
+    /* background-image: url(https://shop.spacex.com/cdn/shop/files/X_collection_olive_hoodie_photo_main_page_1600x.png?v=1695400972);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+    
+
+    background-size: content; */
+    width: 100%;
+    height: 515px;
+
+}
+
+/* --------------------  sec2 -------------------------------- */
+
+#sec2{
+    padding: 50px 50px;
+}
+#sec2 h1{
+    text-align: center;
+   padding-bottom: 50px;
+   letter-spacing: 2.5px;
+}
+#sec2 ul{
+    /* border: 2px solid red; */
+    display: grid;
+    padding: 0px 20px;
+    grid-template-rows:repeat(6,400px) ;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+   
+}
+
+#sec2 li{
+    /* border: 2px solid; */
+    
+}
+#sec2 p{
+    text-align: center;
+    font-family :sans-serif;
+    font-size :13px;
+    font-style: normal;
+    font-weight: 700;
+}
+#sec2 a{
+    text-decoration: none;
+    color: black;
+}
+.cards{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    transition: all 0.5s;
+}
+
+#card1{
+    background-image: url(./images/img1_1.webp);
+}
+#card1:hover{
+    background-image: url(./images/img1_2.webp);
+}
+#card2{
+    background-image: url(./images/img2_1.webp);
+}
+#card2:hover{
+    background-image: url(./images/img2_2.webp);
+}
+#card3{
+    background-image: url(./images/img3_1.webp);
+}
+#card3:hover{
+    background-image: url(./images/img3_2.webp);
+}
+#card4{
+    background-image: url(./images/img4_1.webp);
+}
+#card4:hover{
+    background-image: url(./images/img4_2.webp);
+}
+#card5{
+    background-image: url(./images/img5_1.webp);
+}
+#card5:hover{
+    background-image: url(./images/img5_2.webp);
+}
+#card6{
+    background-image: url(./images/img6_1.webp);
+}
+#card6:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHolidaySweaterDragonCloseup_600x.png?v=1699579646);
+}
+#card7{
+    background-image: url(./images/img7_1.webp);
+}
+#card7:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHolidaySweaterFalconDetail_600x.png?v=1699916002);
+}
+#card8{
+    background-image: url(./images/img8_1.webp);
+}
+#card8:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHolidaySweaterStarlinkDetail_600x.png?v=1699915892);
+}
+#card9{
+    background-image: url(./images/img9_1.webp);
+}
+#card9:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXHoodieUnisexBlackCloseup_600x.png?v=1695251702);
+}
+#card10{
+    background-image: url(./images/img10_1.webp);
+}
+#card10:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XTeeUnisexWhiteDetail_743874a6-5c48-4508-891f-db4be03e6b86_600x.png?v=1707257969);
+}
+#card11{
+    background-image: url(./images/img11_1.webp);
+}
+#card11:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XFullZipUnisexDetail_600x.png?v=1695251726);
+}
+#card12{
+    background-image: url(./images/img12_1.webp);
+}
+#card12:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XFullZipCroppedWomensLilacDetail_600x.png?v=1695251767);
+}
+#card13{
+    background-image: url(./images/img13_1.webp);
+}
+#card13:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/SpaceXCroppedHoodieWomensBlackDetail_600x.png?v=1695251747);
+}
+#card14{
+    background-image: url(./images/img14_1.webp);
+}
+#card14:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XDadhatMilitaryGreenBack_600x.png?v=1695400424);
+}
+#card15{
+    background-image: url(./images/img15_1.webp);
+}
+#card15:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XTruckerHatBack_600x.png?v=1695400444);
+}
+#card16{
+    background-image: url(./images/img6_1.webp);
+}
+#card16:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XTeeWomensBlackDetail_600x.png?v=1695405749);
+}
+
+/* ------------------------------------------------ */
+#sec3{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    height: 45px;
+    width: 220px;
+    border: 1px solid;
+    text-align: center;
+    font-family :sans-serif;
+    font-size :13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+/* ---------------------------------- */
+footer{
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+    padding: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>ul{
+    display: flex;
+}
+footer>ul>li>a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin:0px 20px;
+    font-size: 15px;
+    
+}
+footer>p{
+    color: #939393;
+    align-self: flex-start;
+    transform: translateY(80px);
+}

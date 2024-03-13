@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--use method attribute value post to hide submit-->
+    <form method="post" action="https://chat.openai.com">
+        <h1>Form</h1>
+
+        
+        <fieldset>
+                    <legend>User Details</legend>
+                    <br>
+                    <label>Enter your name:</label>
+                    <input type="text" autofocus="1" name="username"  maxlength="25" minlength="3" required>
+                    <br><br>
+
+                    <label>Enter your email:</label>
+                    <input type="email" name="email"><br><br>
+                    <!--Input type hidden to send data from form which is not visible-->
+                    <input type="hidden" name="department" value="ece">
+                    <label for="">Enter the password</label>
+                    <input type="password" name="password" required placeholder="password"><br><br>
+        </fieldset>
+<br><br>
+        <fieldset>
+                <legend>DOB details</legend>
+                <label >Enter your age:</label>
+                <input type="number" name="age" placeholder="age" min="18" max="60" ><br><br>
+        
+                <label >Enter your date of birth:</label>
+                <input type="date" name="dob"><br><br>
+        
+                <label>month</label>
+                <input type="month"><br><br>
+        
+                <label for="">Choose your favorite color</label>
+                <input type="color" name="color"  ><br><br>
+
+        </fieldset>
+
+        <input type="range"  name="file"><br><br>
+
+        <input type="file"><br><br>
+
+
+
+        <label for="">Gender:</label><br>
+
+        <input type="radio" id="m" name="gender" value="male" >
+        <label for="m">Male</label>
+        <!--to select any option by default in radio or checkbox use checked attribute after using it user can select other option also-->
+        <input id="f" type="radio" name="gender" value="female" checked>
+        <label for="f">female</label>
+        <!--use disabled attribute to disable any option-->
+        <input id="o" type="radio" name="gender" value="others" disabled>
+        <label for="o">Others</label>
+        <br><br>
+
+        <label >Language:</label><br>
+
+        <input type="checkbox" name="language" value="Telugu">
+        <label >Telugu</label>
+        <input type="checkbox" name="language" value="Hindi">
+        <label >Hindi</label>
+        <input type="checkbox" name="language" value="English">
+        <label >English</label>
+        <!--value and name attributes are mandatory-->
+        <br><br>
+
+
+        <!--Drop down list-->
+        <label >State:</label>
+        <select name="place" >
+            <option value="telangana">telangana</option>
+            <option value="andra">AP</option>
+            <!--to select any option by default use selected attribute after using it user can select other option also-->
+            <option value="tamilnadu" selected>Tamilnadu</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Jammu" disabled>Jammu&Kashmir</option>
+        </select>
+        <br><br>
+
+        <label for="">COMMENT</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+
+
+        <br><br><br>
+        <input type="reset">
+        <input type="submit">
+        <input type="submit" value="register">
+
+    </form>
+</body>
+</html>

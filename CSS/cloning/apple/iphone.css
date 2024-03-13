@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    height: 50px;
+    padding: 10px 100px 30px 120px;
+    font-weight: 200;   
+    font-size: 14px;
+}
+
+
+#navlinks{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+}
+/* ===================================================== */
+#sec2{
+    padding: 20px 120px;
+}
+#sec2>ul{
+    display: flex;
+    justify-content: space-between;
+}
+#sec2>ul>li{
+    /* border: 2px solid blue; */
+    display:flex;
+    flex-direction: column;
+}
+#sec2>ul>li>img{
+    height: 60px;
+}
+#sec2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+#sec2 span{
+    color: rgb(165, 33, 33);
+    font-size: 12px;
+}
+/* -------------------------------------- */
+#sec3{
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 200;   
+    font-size: 14px;
+}
+
+/* ---------------------------------------- */
+#sec4{
+    background-color: black;
+    color: white;
+    height: 900px;
+    background-image: url(https://www.apple.com/v/iphone/home/bs/images/overview/hero/hero_iphone_15_pro__eqwrvy72748y_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:400px 450px;
+}
+#sec4 img{
+    height: 60px;
+}

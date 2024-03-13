@@ -1,0 +1,232 @@
+body{
+    margin:0;
+}
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:  "Nunito", sans-serif;
+    
+    
+}
+  
+
+header>div{
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;  
+}
+#KBicon{
+    width: 30px;
+    height: 30px; 
+}
+header>div>h3{
+    /* border:2px solid yellow; */
+    color:white;
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color:rgba(0,0,0,0.3);
+    background-color: red;
+    padding: 20px 80px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
+ul{
+    display: flex;  
+   list-style-type: none; 
+}
+nav a{   
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+nav>a:hover{
+    /* color:rgba(201, 128, 244, 0.99); */
+    color: red;
+}
+
+
+
+
+/* ----------------        main        ------------------------------- */
+
+#video{
+    /* border:20px solid red; */
+    width: 100%;
+    height: 700px;
+    /* background: url(./images/video-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+ }
+ video{
+    width: 100%;
+ }
+
+ main{
+    position: relative;
+ }
+ #content{
+    /* padding: 20px 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;   
+    position: absolute;
+    top:0px;
+    
+ }
+
+#content h1,#content h3{
+    color:white;
+    text-transform: uppercase;
+ }
+ h1{
+    font-weight: 1000; 
+ }
+ #content h1{ 
+    font-size: 60px;
+ }
+ #content h3{
+    font-size:25px;
+ }
+#watch{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    padding:15px 30px ;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 19px;
+    background-color: rgb(255, 86, 114);
+    color: white;
+    text-transform: uppercase;
+}
+ /* ------------------------------------------------------------- */
+section{
+    margin: 60px 80px;
+}
+p{
+    font-weight: 300;
+    text-align: center;
+}
+hr{
+    height: 3px;
+    margin:0px 90px;
+   background-color: rgb(199, 123, 244);
+
+}
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 19px;
+}
+#sec2{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#sec2>h2{
+    /* border: 2px solid salmon; */
+}
+#sec2 p{
+    margin:20px 20px;
+}
+#sec2>div{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin:20px 0px
+}
+#sec2>div>div{
+    /* border:2px solid yellow;   */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+h3{
+    font-weight: 600;
+}
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#sec3 img {
+    padding: 0px 150px;
+    width:100%;
+    height: 100%;
+}
+
+#sec4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sec4>div{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+#sec4>div>div{
+    margin:20px;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sec4 img{
+    margin:10px;
+    height: 40px;
+    width: 20px;
+}
+#sec4 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+#sec4 a:hover{
+    color:rgb(255, 86, 114);
+}
+
+
+/* -------------------------------------- */
+#circle{
+    background-color: #ff5672;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px 0px  25px 25px;
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    margin-left:96%;
+    
+}
+.chat{
+   margin-top: 20px;
+   margin-left:20px
+}

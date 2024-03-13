@@ -1,0 +1,230 @@
+body,header,main,footer{
+    margin: 0px ; 
+    padding:0px;
+    border:0px;
+    background-color:#e2e2e2;
+}
+*{
+    font-size: 14px;
+    font-family: Arial;
+}
+
+header,#container1,#s3,#s4,#s5{
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top:20px;
+
+}
+
+/* --------------------------------------------------------------- */
+header{
+   
+    background-color: rgb(78, 89, 68);
+    padding-top: 40px ;
+    padding-bottom: 40px;
+}
+
+#logo1{                         /* <--icon the works as home link--> */
+    padding-right: 60px;
+}
+
+.na a{ 
+    font-size: 14px;
+    font-weight: bold;
+    color:#b8c6ac;
+    font-family:serif;
+    text-shadow: 2px 2px #000;
+    padding: 5px;
+    height: 20px;
+    /* border:2px solid yellow; */
+    margin-left: 10px;
+}
+
+#homelink,.na a:hover{
+    color:white;
+    
+}
+/* ------------------------   main    --------------------------------------- */
+
+main>#container1{
+    /* border:2px solid blue; */
+    height:200px;
+    box-shadow: #a8a7a7;
+    background-color: #eee;
+    border-bottom: 1px solid white; 
+    border-top: 1px solid white; 
+    /* padding-bottom: 20px; */
+}
+
+#s1{
+    margin-left: 30px;
+    width:650px;
+    height:200px;
+    border-right:1px rgb(189, 186, 186);
+    border-right-style: dotted;
+    /* border: 2px solid salmon; */
+}
+#s1 p,#s1 p a,#s2 p,#s3 p,#s3 h4,#s4 .s4_card{
+    color: #626262;
+    line-height :22px;
+}
+#s1 h1,#s2 h1{
+    font-size: 32px;
+    margin: 0px;
+    color: #57614e;
+    font-family: serif;
+    font-weight: normal;  
+}
+#s2{
+    width:250px;
+    height:200px;
+    /* border: 2px solid aqua; */
+    font-weight: normal;
+    margin-left: 700px;
+    margin-top:-190px;
+}
+
+#s2 h1{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#s2 #p2{
+    text-align: right;
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+
+main>#s3{
+
+    background-color:#e2e2e2;
+    padding-top:40px;
+    padding-bottom:40px;
+
+    /* border:2px  solid yellow; */
+}
+
+#s3>h2{
+    margin:0px 0px 0px 10px;
+    font-size: 18px;
+    font-family:serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: rgb(114, 128, 99);
+    /* color: #728063; */
+}
+#s3 h4{
+    margin:19px 0px 0px 0px;
+}
+#s3>.card{
+    height: 330px; 
+    width:220px; 
+    /* border: 2px  solid ; */
+    padding: 10px;    
+}
+.card img{
+    border: 10px groove white;
+    box-shadow: 0px 8px 6px grey;
+}
+#card2{
+    margin-left: 250px;
+}
+#card3{
+    margin-left:500px;
+}
+#card4{
+    margin-left:750px;
+}
+.ThreeCards{
+    margin-top:-350px; 
+}
+
+#s3 button{
+    padding: 5px;
+    background-color:#61615f; 
+    border: none;
+    /* border-radius: 2px; */
+    box-shadow: 1px 1px 1px black ;    
+}
+#s3 a{
+   
+    text-shadow: 1px 1px rgb(88, 87, 87);
+    color:white;
+    text-decoration: none;   
+}
+
+#s3 button:hover{
+    background-color: #3d3d3c;
+}
+
+/* -------------------------footer------------------------------------------------ */
+#s4{
+    height: 200px;
+    background-color: #d2d2d4;
+    border-color: white;
+    border-top: 3px solid white; 
+}
+#s4>.s4_card{
+    height:150px;       
+}
+
+#s4>.cards2{
+    margin-top: -170px;
+    
+}
+#card2_1{
+    width:330px;
+     /* border:2px solid; */
+}
+#card2_2{
+    width:250px;
+    margin-left: 330px;
+    padding:0px 20px;
+    border-left: 0.5px dashed grey;
+    border-right: 0.5px dashed grey;
+
+}
+#card2_3{
+    width:300px;
+    margin-left:620px;
+    padding: 0px 20px;
+    /* border:2px solid; */
+}
+#s4 p,#s4 h5{
+    font-size: 12px;
+}
+#card2_3 button{
+    margin-top:-10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color:#61615f;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    border: none;
+    text-decoration: none;    
+}
+#card2_3 button:hover{
+    background-color: #3d3d3c;    
+}
+
+#s5{
+    background-color: rgb(78, 89, 68);
+    padding-bottom: 10px;
+    height: 20px;
+}
+#s5div{
+    width: 300px;
+    /* border: 2px solid; */
+}
+#s5 a{
+    padding-right: 5px;  
+}
+#s5 p{
+    /* border: 2px solid; */
+    text-align: right;
+    font-size: 12px;
+    margin-top: -20px;
+    color: #b5c1aa;;
+    font-family: Arial;
+}

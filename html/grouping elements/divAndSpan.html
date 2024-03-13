@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--div is a block level element-->
+    <div style="border: solid blue;">Hello</div>
+    <div style="border: solid red;">World</div>
+  
+    <br><br>
+
+    <span style="border: solid blue;">Im in span tag 1</span>
+    <span style="border: solid rgb(206, 32, 134);">Im in span tag 2</span>
+
+
+    <br><br>
+
+    <div style="border: solid yellow;">
+        <h1 style="border: solid brown;">Heading</h1>
+        <p style="border: solid blue;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia consequatur fugiat labore ab! Odio tenetur repellendus incidunt molestiae nostrum eveniet alias qui possimus, maiores commodi ducimus repellat minima eaque. Quam.</p>
+
+    </div>
+    <br><br>
+    <p>We can write span tag inside div tag</p>
+    <!--We can write <span> tag inside <div> tag-->
+        <!--the attributes we apply for div tag(parent tag) will apply to span tag(child tag)-->
+        <div style="border: solid brown;">
+            <span style="border: solid yellow;">
+                <input type="text" placeholder="input box in span tag1">       
+            </span>
+            <span style="border: solid blue">
+                <input type="text" placeholder="input box in span tag2">
+           </span>
+        </div>
+
+    <!--We cannot write <div> tag inside <span> tag -->
+        <!--because we write like that the few attributes applied to
+            span tag(parent tag) will not be applied to div tag(child tag)-->
+        <p>We cannot write div tag inside span tag</p>
+        <span style="border: solid brown;">
+            <div style="border: solid yellow;">
+                <input type="text" placeholder="inputbox in div tag 1">
+            </div>
+            <div style="border: solid blue">
+                <input type="text" placeholder="inputbox in div tag 2">
+           
+            </div>
+        </span>
+
+    <!--Character entity-->
+        <!--to write characters not present in keybord we use character entity-->
+        <!--           &characterName;       -->
+        <h5>!@#$%^&*()_-+={[}];:'",./?</h5>
+        <h4>Character entity:</h4>
+        <p>to write characters not present in keybord we use character entity</p>
+        <p>&CharacterName;</p>
+        &alpha;
+        &beta;
+        &gamma;
+        &midast;
+        &abreve;
+        &copy;
+        &reg;
+        &nbsp;<!--nbsp is non breakable space
+                and it is used give space in same line
+                where as <br> tag goes to next line-->
+        &alpha;
+        &beta;
+        
+        <br>
+        <!--Example for nbsp-->
+        <input type="text" placeholder="inputbox without nbsp">
+        &nbsp;
+        <input type="text" placeholder="inputbox without nbsp">
+
+        <br>
+        <br>
+        <!--without nbsp-->
+        <input type="text" placeholder="inputbox with nbsp">
+        <input type="text" placeholder="inputbox with nbsp">
+
+        <br><br>
+    <!--<iframe> tag is used to create nested web page-->
+        <iframe src="https://filpcart.com" frameborder="0"></iframe>
+       
+    
+
+
+</body>
+</html>

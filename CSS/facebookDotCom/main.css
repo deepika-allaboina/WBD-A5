@@ -1,0 +1,112 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width:100%;
+    background-color: #f0f2f5 ; /* light sky  blue backgroundfor web page*/
+    
+}
+form{
+   
+    background-color: #fff; /*white color */
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+    box-shadow:5px 5px 6px -7px ;
+}
+input{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width:200px;
+    padding:10px 40px;
+    border-radius:5px ;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width:283px;
+    /* width: 368px; */
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgetPw{
+    display:block;
+    width:200px;
+    margin: quto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family:'Segoe UI' ;
+    font-size: 400;
+    /* text-align: center; */
+}
+
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.createAccount{
+    width: 180px;
+    font-size: 14px;
+    background-color:#42b72a; 
+    text-align:center;
+}
+.createAccount:hover{
+    background-color:#3ba626 ;
+}
+
+.linkCreatePage h3{
+    width:270px;
+    position: relative;
+    color:black;
+    font-family:"Segoe UI",arial;
+    padding: 130px 890px;  
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.linkCreatePage h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.logoContainer{
+    width:350px;
+    margin:300px;
+    margin-top:30vh;
+    font-family:'Segoe UI';
+
+
+}
+
+.logoContainer img{
+    width:250px;
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
+
+}

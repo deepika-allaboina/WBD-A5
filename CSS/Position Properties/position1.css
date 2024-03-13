@@ -1,0 +1,22 @@
+h1{
+    border: 2px solid red;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    /* position: static; */
+    /* position:absolute; */
+    /* position:relative; */
+    position:sticky;
+
+    /* bottom:100px; */
+    /* right:0px; */
+    /* top:200px; */
+    top:200px;
+
+}
+

@@ -1,0 +1,22 @@
+li{
+    border: 2px double blueviolet;
+    height:100px;
+    width:100px;
+  
+    text-align: center;
+    padding-top: 80px;
+}
+
+#l1{
+    margin-left: 200px;
+    margin-top: -180px;   
+}
+
+#l2{
+    margin-left: 400px;
+    margin-top: -180px;
+}
+#l3{
+    margin-left: 600px;
+    margin-top: -180px;
+}

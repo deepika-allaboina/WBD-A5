@@ -1,0 +1,65 @@
+#link1:link{
+    color:yellow;
+    
+}
+
+#link2:link{
+    color: red;
+    
+}
+#link3:visited{
+    color:green;
+}
+
+/* input:checked{
+    accent-color:red;   to change the color of checkboxes and radio
+                        use accent-color
+} */
+
+li:first-child{
+    border:2px solid;
+}
+
+li:last-child{
+    border:2px solid violet;
+}
+
+li:nth-child(even){
+    border:2px solid blue;
+}
+li:nth-child(odd){
+    border:2px solid green;
+}
+
+li:nth-child(3){
+    border:2px solid orangered;
+}
+
+img{
+    height:200px;
+    width:200px;
+}
+
+img:hover{
+    height:300px;
+    width:300px;
+}
+
+#para1:hover{
+    background-color: black;
+    color:red;
+}
+
+button:hover{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+
+th{
+    background-color: char;
+}
+
+th:hover{
+    background-color: blue;
+}
+

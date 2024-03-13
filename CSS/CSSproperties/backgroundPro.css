@@ -1,0 +1,46 @@
+h1{
+    text-transform: uppercase;
+    color: aqua;
+    background-color: cadetblue;
+    border: 5px solid blueviolet;
+}
+
+#para1{
+    text-align: justify;
+    text-align-last: justify;
+    background-image: url(https://cdn.pixabay.com/photo/2023/07/22/09/04/european-shorthair-8142967_640.jpg);
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-position: right; */
+    /* background-position: left; */
+    /* background-position: top; */
+    /* background-position: left center; */
+    /* background-position:  right bottom; */
+    /* background-position: left bottom; */
+    /* background-position:  right top; */
+    /* background-position: 100px 400px; */
+    /* background-size: 100px; */
+    /* background-size: 400px 800px; */
+    background-size: cover;
+    /* background-size: contain; */
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
+    
+}
+
+#div1{
+    height:200px;
+    border: 2px solid red;
+    background-image: url(https://cdn.pixabay.com/photo/2023/09/30/10/53/common-blue-8285440_640.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#para2{
+   width:400px;
+  
+   text-align: justify;
+
+}

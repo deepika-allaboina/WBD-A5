@@ -1,0 +1,278 @@
+@import url(./header.css);
+body{
+    margin: 0px ; 
+}
+
+
+/* --------------- main ------------------------------------------ */
+h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+#sec1{
+    background-image: url(./images/app-link-background\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    height: 617px;
+    background-attachment: scroll;
+    /* background-color: aqua; */
+    
+    position: relative;   
+}
+.madimi-one-regular ,h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#sec1 h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+#sec1>h1{
+    position: absolute;
+}
+#orderBTN{
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #ff5672;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    border:2px solid  #ff5672;
+    border-radius: 10px;
+    
+}
+#sec1 >div{
+    position: absolute;
+    top: 350px;
+    left:300px;
+}
+#sec1 p{
+    color:white;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+sec1>a>img{
+    width: 200px;
+    height: 60px;
+}
+
+sec1>a>img:hover{
+    width: 220px;
+    height: 70px;
+}
+.madimi-one-regular,h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+/* ---------------section2----------------- */
+#sec2 h2,#footer_sec1 h2{
+    color: rgb(66, 66, 66);
+    font-size: 55px;
+    text-align: center;
+}
+#sec2,#footer_sec1{
+    /* background-color: red;; */
+    padding: 30px 40px 20px;
+}
+#sec2 div{
+    width:200px;
+    height: 300px;
+    /* border: 2px solid; */
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#feat2{
+    /* background-color: red; */
+    margin-top:-300px;
+    margin-left:250px;
+}
+#feat3{
+    margin-top:-300px;
+    margin-left:460px;
+}
+#feat4{
+    margin-top:-300px;
+    margin-left:700px;
+}
+#feat5{
+    margin-top:-300px;
+    margin-left:950px;
+}
+#sec2 p{
+    font-size: 15px;
+    color:rgb(66, 66, 66);
+    text-align: center;
+}
+#sec2 img{
+    width: 200px;
+    height: 200px;
+
+}
+
+/* ----------------------  section3 --------------------------------------- */
+
+#sec3{
+    background-image: url(./images/banner-1.webp);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    height:902px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;   
+}
+.madimi-one-regular ,h1,#sec4 h1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#sec3 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    /* border: 2px solid; */
+    color: white;
+    position: absolute;
+    top:350px;
+    
+}
+/* ----------------------------------section4------------------------- */
+
+#sec4{
+    background-image: url(./images/banner-2.webp);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-attachment: scroll;
+    height:645px;
+    width: 100%;
+    margin-top:-80px;
+    /* background-color: aqua; */
+    position: relative;   
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#sec4 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    /* border: 2px solid; */
+    color: white;
+    position: absolute;
+    top:250px;
+    font-size: 96px;   
+}
+#sec4 button{
+    padding: 20px 60px ;
+   border:2px solid white;
+   border-radius: 30px;
+   color: white;
+   font-size: 19px;
+   background: 0 0;
+   position: absolute;
+   bottom:30px;
+   left:40%
+}
+
+/* -------------          footer_sec1     ----------------- */
+
+#footer_sec1{
+    padding: 20px 100px ;
+    background-color:#F5F5F5;
+    /* border: 2px solid red;  */
+}
+#footer_sec1 .cards{
+    width:200px;
+    height: 250px;
+    /* border:2px solid green; */
+}
+#footer_sec1 a,#footer_sec1 p,span,li{
+    font-size: 18px;
+    color:rgb(66, 66, 66);
+    font-family: Arial;
+    letter-spacing: 2px;
+    text-align:left;
+}
+#footer_sec1 h3{
+    color:rgb(66, 66, 66);
+    font-size: 20px;
+    font-family:  "Madimi One", sans-serif;
+}
+/* #part1{ 
+     border:2px solid red; 
+    
+} */
+ 
+#card2{
+   margin-top:-270px;
+   margin-left:200px;
+}
+
+#card3{
+    margin-top:-250px;
+    margin-left:450px;
+}
+
+#footer_sec1 #card3{
+    width:600px;
+    /* border:2px solid blue; */
+}
+#card4{
+    margin-top:-50px;
+    margin-left:0px;
+}
+
+#card5{
+    margin-top:-270px;
+    margin-left:200px;
+ }
+#card6{
+    margin-top:-270px;
+    margin-left: 400px;
+}
+#card6 i{
+    padding-right: 40px;
+}
+#card7{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+#card7 #img1{
+    height: 30px;
+}
+footer{
+    height: 40px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color:  rgb(199, 123, 244);
+    color: white;
+}
+/* -------------------------------------- */
+#circle{
+    background-color: #ff5672;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px 0px  25px 25px;
+    position: sticky;
+    bottom: 0px;
+    right: 0px;
+    margin-left:96%;
+    
+}
+.chat{
+   margin-top: 20px;
+   margin-left:20px
+}

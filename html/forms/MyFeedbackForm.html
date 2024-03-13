@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My feedback form</h1>
+    <ul>
+        <!--name email password-->
+        <li>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="Name" >
+        </li>
+        <br>
+
+        <li>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email">
+        </li>
+        <br>
+
+        <li>
+            <label for="pwd">Password:</label>
+            <input id="pwd" name="password" type="password">
+        </li>
+        <br>
+
+        <br><br>
+        
+        <!--radio for check all conditions apply to you-->
+        <li >
+            <label for="">Please ckeck all the conditons that apply to you:</label>
+            <br>
+            <ul type="disc">
+                <li>
+                    <label for="angry">Angry</label>
+                    <input id="angry" name="conditions" value="Angry" type="checkbox" checked>
+                </li>
+
+                <li>
+                    <label for="sad">Sad</label>
+                    <input id="sad"  name="conditions" value="Sad" type="checkbox">
+                </li>
+
+                <li>
+                    <label for="happy">Happy</label>
+                    <input id="happy"  name="conditions" value="Happy" type="checkbox">
+                </li>
+
+                <li>
+                    <label for="Amb">Ambivalent</label>
+                    <input id="amb"  name="conditions" value="Ambivalent" type="checkbox"> 
+                </li>
+            </ul>
+        </li>
+        <br>
+
+        <!--Checkbox for service -->
+        <li>
+            <label for="">How satisfied were you with our service?</label>
+            <ul type="disc">
+                <li>
+                    <label for="vs">Very satisfied</label>
+                    <input id="vs" name="satisfaction" value="very satisfied" type="radio" checked>
+                </li>
+
+                <li>
+                    <label for="s">Satisfied</label>
+                    <input id="s" name="satisfaction" value="Satisfied" type="radio">
+                </li>
+
+                <li>
+                    <label for="d">Didn't care</label>
+                    <input id="d" name="satisfaction" value="didn't care" type="radio">
+                </li>
+
+                <li>
+                    <label for="ds">Dissatisfied</label>
+                    <input id="ds" name="satisfaction" value="Dissatisfied" type="radio">
+                </li>
+
+                <li>
+                    <label for="vds">Very dissatisfied</label>
+                    <input id="vds" name="satisfaction" value="Very dissatisfied" type="radio">
+                </li>
+            </ul>
+
+
+        </li>
+        
+        <!--Comments using Textarea-->
+        <br>
+        <li>
+            <label for="c">Further comments:</label><br>
+            <textarea name="further comments" id="c" cols="30" rows="4"></textarea>
+        </li>
+
+        <br>
+        <!--Photo uploading-->
+        <li>
+            <label for="photo">Bio photo:</label>
+            <input id="photo" name="Photo" type="file">
+        </li>
+
+        <!--Dropdown list of location-->
+        <br>
+        <li>
+            <label for="loc">Location visited</label>
+        <!--    <select name="Location visited" id="loc" placeholder="Select location">
+                <option value="">Ap</option>
+            </select>
+        -->
+            <input name="Location visited" id="loc" placeholder="Select location" type="number" >
+
+
+        </li>
+
+
+        <br><br>
+       
+    </ul>
+
+
+    <li>
+        <input type="submit">
+    </li>
+</body>
+</html>

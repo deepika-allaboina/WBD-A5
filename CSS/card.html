@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 200px;
+            width:200px
+        }
+        .cards{
+            border:2px solid green;
+            width:250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 5px 5px 10px green;
+        }
+        .cards:hover{
+            transform: scale(1.2);
+        }
+        #span1{
+            border:2px solid red;
+            
+        }
+        span{
+            color:blue;
+        }
+        p{
+            width:170px;
+        }
+        input{
+            height: 30px;
+            width: 100px;
+            background-color: aqua;
+            transition: all 2s;
+        }
+        input:hover{
+            background-color: blue;
+            transform: scale(2);
+
+        }
+
+       #parent{
+        border: 2px solid red;
+        display:flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+       }
+
+    </style>
+</head>
+<body>
+    
+    <div id="parent" >
+        <div id="card1"  class="cards">
+            <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg" alt="flower img">
+            <h2>Flower</h2>
+            <p>Flower <span id="span1">is a </span>Lorem ipsum dolor sit amet <span >consectetur</span> adipisicing elit. Ea, eum ipsam ducimus 
+                non porro autem deserunt nesciunt alias soluta. 
+                 laboriosam.</p>
+            <br>
+            <br>
+            <input type="button" value="Readmore">
+        </div>
+        <div id="card2"  class="cards">
+            <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg" alt="flower img">
+            <h2>Flower</h2>
+            <p>Flower <span id="span1">is a </span>Lorem ipsum dolor sit amet <span >consectetur</span> adipisicing elit. Ea, eum ipsam ducimus 
+                non porro autem deserunt nesciunt alias soluta. 
+                 laboriosam.</p>
+            <br>
+            <br>
+            <input type="button" value="Readmore">
+        </div>
+        <div id="card3"  class="cards">
+            <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg" alt="flower img">
+            <h2>Flower</h2>
+            <p>Flower <span id="span1">is a </span>Lorem ipsum dolor sit amet <span >consectetur</span> adipisicing elit. Ea, eum ipsam ducimus 
+                non porro autem deserunt nesciunt alias soluta. 
+                 laboriosam.</p>
+            <br>
+            <br>
+            <input type="button" value="Readmore">
+        </div>
+
+    </div>
+</body>
+</html>

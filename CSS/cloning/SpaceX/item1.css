@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    padding-left: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+
+#wholepage{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row: auto;
+    row-gap: 20px;
+
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding-top:60px;
+}
+header img{
+    width: 160px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.ash{
+    color: #939393;
+}
+.ash:hover{
+    color: white;
+}
+header>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    /* border: 2px solid white; */
+    margin:0px 20px;
+    text-transform: uppercase; 
+    display: flex;
+    flex-direction: column;
+
+}
+.drop{
+    position: absolute;
+    top:105px;
+    width: 200px;
+    padding: 30px;
+    border-top: 4px solid white;
+    background-color: black;
+    color: white;
+    display: none;
+    /* visibility: hidden; */
+    
+}
+#xx:hover{
+    display: block;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+main{
+    display: flex;
+    padding-top: 145px;
+}
+#side1{
+    width:50px;
+    height: 500px;
+    /* background-color: red; */
+    
+}
+#side2 img{
+    width: 100%;
+    margin: 40px 0px;
+}
+#side2{
+    width:640px;
+    /* background-color: aqua; */
+}
+
+#side3{
+    width: 550px;
+    height: 880px;
+    padding:50px 50px;
+    
+    /* background-color: blue; */
+}
+#colors div{
+    height: 30px;
+    width: 30px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+}
+#colors{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#color1{
+    background-color: black;
+}
+#color2{
+    background-color: grey;
+}
+
+#sec1 ul{
+    display: grid;
+    padding: 0px 20px;
+    grid-template-rows:400px;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+    
+}
+#sec1,#sec2{
+    text-align: center;
+    font-size: 16px;
+}
+.cards{
+    margin:20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+    transition: all 0.5s;
+}
+#sec1 a,#sec2 a{
+    text-decoration: none;
+    color: black;
+}
+#card1{
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-DRAGON-HEATHERGRAY-BACK_400x.png?v=1668633703);
+}
+#card3{
+    background-image: url(https://cdn.shopify.com/s/files/1/0261/2615/5855/products/MENS-DRAGON-HEATHERGRAY-BACK_400x.png?v=1668633703);
+}
+#card2{
+    background-image: url(./images/img10_1.webp);
+}
+#card2:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XTeeUnisexWhiteDetail_743874a6-5c48-4508-891f-db4be03e6b86_600x.png?v=1707257969);
+}
+
+#sec2{
+    margin-top: 30px;
+}
+#sec2 ul{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#card4{
+    background-image: url(./images/img10_1.webp);
+}
+#card4:hover{
+    background-image: url(https://shop.spacex.com/cdn/shop/files/XTeeUnisexWhiteDetail_743874a6-5c48-4508-891f-db4be03e6b86_600x.png?v=1707257969);
+}
+
+#card5{
+    background-image: url(./images/img2_1.webp);
+}
+#card5:hover{
+    background-image: url(./images/img2_2.webp);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+footer{
+    margin-top: 60px;
+    height: 300px;
+    width: 100%;
+    padding: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>ul{
+    display: flex;
+}
+footer>ul>li>a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin:0px 20px;
+    font-size: 15px;
+    
+}
+footer>p{
+    color: #939393;
+    align-self: flex-start;
+    transform: translateY(80px);
+}

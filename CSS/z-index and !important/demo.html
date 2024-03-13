@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            opacity: 0.5;   /* opacity values is 0 and 1 */
+            padding: 30px;
+            text-align: center;
+        }
+
+        #div1{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 0px;       
+            z-index: -1;
+            padding: 20px;
+           
+        }
+        #div2{
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+        }
+        #para1{
+            background-color: cadetblue;
+            color: blue;
+        }
+        .para1{
+            background-color: brown !important;
+            color: white;
+        }
+        
+        #child1,#child2,#child3{
+            height: 100px;
+            width: 200px;
+            border: 3px solid salmon;
+        }
+
+        #child1{
+            background-color: blue;
+            position: absolute;
+            top:0px;
+            left:50px;
+            /* transform: translate(120px,-80px); */
+            z-index: 3;
+        }
+        #child2{
+            background-color: blueviolet;
+            position: absolute;
+            top:10px;
+            left:50px;
+            /* transform: translate(80px,-140px); */
+            z-index: 2;
+        }
+        #child3{
+            background-color: brown;
+            /* transform: translate(40px,-180px); */
+            position: absolute;
+            top:20px;
+            left:50px;
+            z-index: 1;
+        }
+
+        #linear,#radial,#conic{
+            height: 300px;
+            width:300px;
+            border-radius: 30px;
+            text-align: center ;
+            border: 3px solid red;
+            background-image: linear-gradient(30deg,violet,blueviolet,blue,skyblue,green);
+            box-shadow: 5px 0px 30px blue;
+        }
+        #radial{
+            background-image: radial-gradient(violet,blue,green,yellow,orange,red);
+        }
+        #parent>div:hover{
+            transform: scale(0.4);
+        }
+        #conic{
+            background-image: conic-gradient(violet,blue,green,red);
+        }
+        #parent,ul{
+            display: flex;
+            justify-content: space-around;
+        }
+        #gd{
+            border: 5px solid black;
+            background-image: linear-gradient(90deg,blue,blueviolet);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1>z-index and !important</h1>
+
+    <div id="div1"></div>
+    <br><br>
+    <div id="div2">div2</div>
+
+    <p id="para1" class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quasi.</p>
+
+    <br><br><br><br><br><br>
+
+    <div id="child1">child1</div>
+    <div id="child2">child2</div>
+    <div id="child3">child3</div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <h1 id="gd">Gradient method</h1>
+    
+    <div id="parent">
+        <div id="linear">linear</div>
+        <div id=radial>radial</div>
+        <div id="conic">conic</div>
+    </div>
+    <ul>
+        <li>Linear</li>
+        <li>Radial</li>
+        <li>Conic</li>
+    </ul>
+</body>
+</html>

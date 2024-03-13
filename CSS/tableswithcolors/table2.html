@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-spacing: 10px;
+            text-align: center;
+            padding: 2px;
+        }
+        td,th{
+            border: 1px solid black;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Using Tables in Websites</h1>
+    
+    <br>
+    <br>
+    <h2 align="center">Table 2</h2>
+    <table border="1"  style="border-spacing: 4px;">
+        <thead >
+            <tr>
+                <th >Column1</th>
+                <th>Column2</th>
+            </tr>
+            <tr rowspan="2">
+                <th colspan="2">Colspan Column</th>
+                
+            </tr>
+            <tr>
+                <th rowspan="2">Rowspan Cell</th>
+                <th>Cell 2</th>
+            </tr>
+            <tr>
+                <td >
+                    <table  style="border:2px solid yellow; background-color:yellow;" >
+                        <thead>
+                            <tr>
+                                <th style=" padding: 15px;">Inner Column
+                                     Heading 1</th>
+                                <th style=" padding: 10px;">Inner Coumn Heading 2</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr >
+                                <td style=" background-color:cornflowerblue">Inner Data Cell 1</td>
+                                <td>
+                                    <table style="border:15px solid greenyellow; padding: 5px;  background-color:pink; border-spacing: 7px;" height="100" width="300">
+                                        <thead >
+                                            <tr >
+                                                <th style=" padding: 10px;">Inner Most Column Heading 1</th>
+                                                <th style=" padding: 10px;">Inner Most Column Heading 2</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="background-color:fuchsia;">Innermost Data Cell 1</td>
+                                                <td style="background-color:orange;">Inner Most Data Cell 2</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+#div1>a{
+    background: red;
+}
+
+#div1 h1,#div2 p{
+    border: 3px solid green;
+}
+
+#div1 p,#div2 p{
+    color:blue;
+}
+
+/* target p in div1 and div2*/
+/*using class*/
+.para p{
+    background-color: yellowgreen;
+}

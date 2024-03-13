@@ -1,0 +1,28 @@
+div{
+    border: 2px solid;
+    height: 80px;
+    width:300px;
+}
+
+#div1{
+   padding-left: 30px;
+   padding-top: 50px;
+   padding-right: 80px;
+   padding-bottom: 150px;
+   border-bottom: 20px groove yellow;
+   border-right: 30px groove red;
+   border-top:30px double green;
+   
+}
+
+#div2{
+    margin-top: 50px;
+    /* margin-right:100px;  margin right moves the content to left */
+    margin-left: 500px;
+    /* margin-bottom: 100px;  margin bottom doesnot work*/
+    /* margin-top:500px;  it moves  in the content to bottom*/
+    margin-top:-100px;
+}
+/* li{
+    margin
+} */

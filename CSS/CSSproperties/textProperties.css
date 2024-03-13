@@ -1,0 +1,45 @@
+h1{
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    border:2px solid red;
+    text-align:right;
+    width:400px;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    /* text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed; */
+    text-shadow: 20px 40px 5px green;
+    /* text-shadow:x-axis y-axis blur-effect color
+                    x value moves towards right 
+                    y moves towards bottom*/
+
+}
+
+p{
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+    text-align-last: justify;
+    text-indent: 120px;
+    line-height: 50px;
+    /* word-spacing: 50px;
+    letter-spacing: 20px; */
+}
+
+b{
+    border:2px solid slateblue;
+    text-align: right;/* there is no change because bold(b tag) is an inline level element*/
+}
+
+a{
+    text-decoration: none;/*to remove the underline of achor*/
+}
+
+a:hover{
+    text-decoration:  underline ;
+}
+
+
+

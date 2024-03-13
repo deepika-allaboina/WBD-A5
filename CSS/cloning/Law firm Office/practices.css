@@ -1,0 +1,215 @@
+body,header,main,footer{ 
+    background-color:#e2e2e2;
+    color:#626262;
+}
+*{
+    margin: 0px ; 
+    padding:0px;
+    border:0px;
+    font-size: 14px;
+    font-family:Arial;    
+}
+header,main,#s3,#s4,#s5{
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top:20px;
+
+}
+
+/* --------------------------------------------------------------- */
+header{
+   
+    background-color: rgb(78, 89, 68);
+    padding-top: 40px ;
+    padding-bottom: 40px;
+}
+
+#logo1{                         /* <--icon the works as home link--> */
+    padding-right: 60px;
+}
+
+.na a{ 
+    font-size: 14px;
+    font-weight: bold;
+    color:#b8c6ac;
+    font-family:serif;
+    text-shadow: 2px 2px #000;
+    padding: 5px;
+    height: 20px;
+    /* border:2px solid yellow; */
+    margin-left: 10px;
+}
+
+#practiceslink,.na a:hover{
+    color:white;
+    
+}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------           main           -------------------------------------------------*/
+
+main{
+    height: 960px;
+}
+#side1{
+    height: 960px;
+    /* border: 2px solid blue;
+    background-color: red; */
+     border-right:2px;
+    border-style:  dotted;
+    border-color:  white;
+    float: left;
+    width: 290px;
+    padding-right: 18px;
+}
+#side2{
+    height: 960px;
+    /* border:2px solid green;
+    background-color: yellow; */
+    float: left;
+    width: 600px;
+    padding: 0 0 0 32px;
+} 
+h2{
+    height: 40px;
+    margin-top: 6px;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    /* border-bottom: 0.5px dotted  rgb(189, 186, 186);; */
+    border-right:1px rgb(189, 186, 186);
+    border-right-style: dashed;
+}
+#side2 h1{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+.para{
+    color: #626262;
+    font: 14px Arial;
+    line-height: 24px;
+}
+.ra{
+    text-align: right;
+}
+#side2 a,#side1 li a:hover{
+    text-decoration: none;
+    color: #626262;
+}
+#side2 a:hover{
+    text-decoration: none;
+    color:#333333;
+}
+#side2 img{
+    border: 8px ridge white;
+    height:198px;
+    width:265px;
+}
+#side2 .caption{
+    /* border: 2px solid orange; */
+    width:265px;
+    background-color:  #696969;
+    padding: 7px 0px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom:44px;
+    left:7px
+}
+#pic{
+    /* border: 2px solid; */
+    position: relative;
+}
+#pic div:nth-child(2){
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+#side1 li a{
+    color:#755c02;
+    text-decoration: none;
+}
+#side1 li{
+    border:  dotted;
+    border-width: 2px 0px;
+    
+    border-color: white ;         
+    height: 40px;
+    width: 280px;
+    padding: 5px 0px 0px;
+    /* background-color: aqua; */
+    
+}
+#side1 ul{
+    list-style: none;
+}
+
+/* ----------           footer        ----------------------------- */
+#s4{
+    height: 200px;
+    background-color: #d2d2d4;
+    border-color: white;
+    border-top: 3px solid white; 
+}
+#s4>.s4_card{
+    height:150px;       
+}
+#s4>.cards2{
+    margin-top: -150px;    
+}
+#card2_1{
+    width:330px;
+     /* border:2px solid; */
+}
+#card2_2{
+    width:250px;
+    margin-left: 330px;
+    padding:0px 20px;
+    border-left: 0.5px dashed grey;
+    border-right: 0.5px dashed grey;
+}
+#card2_3{
+    width:300px;
+    margin-left:620px;
+    padding: 0px 20px;
+    /* border:2px solid; */
+}
+#s4 p,#s4 h5{
+    font-size: 12px;
+}
+#card2_3 button{
+    margin-top:-10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color:#61615f;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    border: none;
+    text-decoration: none;    
+}
+#card2_3 button:hover{
+    background-color: #3d3d3c;    
+}
+#s5{
+    background-color: rgb(78, 89, 68);
+    padding-bottom: 10px;
+    height: 20px;
+}
+#s5div{
+    width: 300px;
+    /* border: 2px solid; */
+}
+#s5 a{
+    padding-right: 5px;  
+}
+#s5 p{
+    /* border: 2px solid; */
+    text-align: right;
+    font-size: 12px;
+    margin-top: -20px;
+    color: #b5c1aa;;
+    font-family: Arial;
+}
+

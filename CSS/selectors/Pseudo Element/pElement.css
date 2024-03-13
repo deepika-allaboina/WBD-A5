@@ -1,0 +1,37 @@
+#para1::selection{
+    color:green;
+    background-color: palevioletred;
+    text-decoration: underline;
+}
+
+#para1::first-line{
+    color:red;
+}
+
+#para1::first-letter{
+    color:blueviolet;
+    font-size: 50px;
+    font-family:cursive;
+}
+
+#para1::before{
+    content:"Start here";
+}
+
+#para1::after{
+    content:"end content";
+}
+
+li::before{
+    content:"item name:";
+}
+
+li::after{
+    content:url("https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_1280.jpg");
+   
+}
+
+li::marker{
+    color:chartreuse
+}
+

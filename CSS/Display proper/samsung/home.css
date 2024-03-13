@@ -1,0 +1,37 @@
+
+
+h3{
+    /* border: 2px solid; */
+}
+
+
+nav{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 3px 5px;
+    /* border: 2px solid blue; */
+}
+
+.links>a:hover{
+    /* border: black; */
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+i:hover{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
